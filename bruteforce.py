@@ -16,7 +16,7 @@ def calcRepeat(bit_length):
 # Parameters
 data = [0, 1]
 
-repeat = calcRepeat(int(input("Kaç bit olsun reis: ")))
+repeat = calcRepeat(int(input("Length of bitstring: ")))
 firstRepeat = max(repeat[0], repeat[1])
 secondRepeat = min(repeat[0], repeat[1])
 
