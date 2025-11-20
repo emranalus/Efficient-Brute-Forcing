@@ -1,6 +1,3 @@
-# Efficient-Brute-Forcing
-A way of slashing the brute forced bit string in half which is %50 logarithmically efficient! 
-
 # How It Works?
 Normally brute forcing a bit string is O(2^n) hard because every slot can get 2 values the floor is 2 where n is the length of the bit string
 but because every bit string is a repeatation of other bitstrings and lower n strings are exponentially easier to calculate we can use those to calculate our new bitstring for example:
