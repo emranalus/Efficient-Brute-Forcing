@@ -32,4 +32,4 @@ DB
 DC
 DD
 
-If I see AA I will decode that as 0000 = AA (because A = 00) this calculation when done normally is equal to O(2^4) but with this method its big O notation is O(2^2 + 4^2) so the big O notation of my algorithm is O(2^(n/2)) which is logarithmically or exponentially %50 more efficient!
+If I see AA I will decode that as 0000 = AA (because A = 00) this calculation when done normally is equal to O(2^4) but with this method its big O notation is O(2^2 + 4^2) so the big O notation of my algorithm is O(2^(n/2)) which is more efficient!
