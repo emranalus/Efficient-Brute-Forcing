@@ -1,6 +1,6 @@
 # How It Works?
 Normally brute forcing a bit string is O(2^n) hard because every slot can get 2 values the floor is 2 where n is the length of the bit string
-but because every bit string is a repeatation of other bitstrings and lower n strings are exponentially easier to calculate we can use those to calculate our new bitstring for example:
+but because every bit string is a repetition of other bitstrings and lower n strings are exponentially easier to calculate we can use those to calculate our new bitstring for example:
 
 bb - 2 bits
 
@@ -29,4 +29,4 @@ DB
 DC
 DD
 
-If I see AA I will decode that as 0000 = AA (because A = 00) this calculation when done normally is equal to O(2^4) but with this method its big O notation is O(2^2 + 4^2) so the big O notation of my algorithm is O(2^(n/2)) which is more efficient!
+If I see AA I will decode that as 0000 = AA (because A = 00) this calculation when done normally is equal to O(2^4) but with this method its big O notation is O(2^2 + 4^2) so the big O notation of this algorithm is little bit north of O(2^(n/2)) which is clearly more efficient!
